@@ -1,0 +1,23 @@
+c:\users\stas\documents\visual studio 2012\Projects\avtoRFB\avtoRFB\bin\Debug\avtoRFB.exe.config
+c:\users\stas\documents\visual studio 2012\Projects\avtoRFB\avtoRFB\bin\Debug\avtoRFB.exe
+c:\users\stas\documents\visual studio 2012\Projects\avtoRFB\avtoRFB\bin\Debug\avtoRFB.pdb
+c:\users\stas\documents\visual studio 2012\Projects\avtoRFB\avtoRFB\obj\Debug\avtoRFB.csprojResolveAssemblyReference.cache
+c:\users\stas\documents\visual studio 2012\Projects\avtoRFB\avtoRFB\obj\Debug\avtoRFB.RegistrationForm.resources
+c:\users\stas\documents\visual studio 2012\Projects\avtoRFB\avtoRFB\obj\Debug\avtoRFB.Properties.Resources.resources
+c:\users\stas\documents\visual studio 2012\Projects\avtoRFB\avtoRFB\obj\Debug\avtoRFB.csproj.GenerateResource.Cache
+c:\users\stas\documents\visual studio 2012\Projects\avtoRFB\avtoRFB\obj\Debug\avtoRFB.exe
+c:\users\stas\documents\visual studio 2012\Projects\avtoRFB\avtoRFB\obj\Debug\avtoRFB.pdb
+C:\Users\stas\Documents\Visual Studio 2012\Projects\avtoRFB\avtoRFB\bin\Debug\xNet.dll
+D:\C#\avtoRFB\avtoRFB\obj\Debug\avtoRFB.RegistrationForm.resources
+D:\C#\avtoRFB\avtoRFB\obj\Debug\avtoRFB.Properties.Resources.resources
+D:\C#\avtoRFB\avtoRFB\obj\Debug\avtoRFB.csproj.GenerateResource.Cache
+D:\C#\avtoRFB\avtoRFB\bin\Debug\avtoRFB.exe.config
+D:\C#\avtoRFB\avtoRFB\bin\Debug\avtoRFB.exe
+D:\C#\avtoRFB\avtoRFB\bin\Debug\avtoRFB.pdb
+D:\C#\avtoRFB\avtoRFB\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+D:\C#\avtoRFB\avtoRFB\bin\Debug\ThoughtWorks.Selenium.Core.dll
+D:\C#\avtoRFB\avtoRFB\bin\Debug\WebDriver.dll
+D:\C#\avtoRFB\avtoRFB\bin\Debug\WebDriver.Support.dll
+D:\C#\avtoRFB\avtoRFB\obj\Debug\avtoRFB.exe
+D:\C#\avtoRFB\avtoRFB\obj\Debug\avtoRFB.pdb
+D:\C#\avtoRFB\avtoRFB\obj\Debug\avtoRFB.csprojResolveAssemblyReference.cache
