@@ -17,7 +17,7 @@ namespace avtoRFB
     {
         public static bool Register(string last_name, string name, string pass, string email)
         {
-            Driver.Instance.Navigate().GoToUrl("http://facebook.com/");
+          /*  Driver.Instance.Navigate().GoToUrl("http://facebook.com/");
 
             var registrationForm = Driver.Instance.FindElementAndWait(By.Id("registration_container"), 1);
             if (registrationForm != null)
@@ -90,6 +90,8 @@ namespace avtoRFB
             {
                 return false;
             }
+           * */
+            return true;
         }
     }
 }

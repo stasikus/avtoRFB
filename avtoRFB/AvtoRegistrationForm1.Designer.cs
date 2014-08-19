@@ -38,28 +38,29 @@
             this.label2 = new System.Windows.Forms.Label();
             this.ControlTab = new System.Windows.Forms.TabControl();
             this.FBTabPage = new System.Windows.Forms.TabPage();
+            this.FBpanel = new System.Windows.Forms.Panel();
             this.FBcounter_label = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.TWTabPage = new System.Windows.Forms.TabPage();
+            this.TWpanel = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.csv_rbTW = new System.Windows.Forms.RadioButton();
+            this.quentity_boxTW = new System.Windows.Forms.NumericUpDown();
+            this.start_btnTW = new System.Windows.Forms.Button();
+            this.stop_btnTW = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.xls_rbTW = new System.Windows.Forms.RadioButton();
+            this.txt_rbTW = new System.Windows.Forms.RadioButton();
             this.TWcounter_label = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.start_btnTW = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txt_rbTW = new System.Windows.Forms.RadioButton();
-            this.xls_rbTW = new System.Windows.Forms.RadioButton();
-            this.stop_btnTW = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.quentity_boxTW = new System.Windows.Forms.NumericUpDown();
-            this.csv_rbTW = new System.Windows.Forms.RadioButton();
-            this.FBpanel = new System.Windows.Forms.Panel();
-            this.TWpanel = new System.Windows.Forms.Panel();
+            this.richTextBoxFB = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.quentity_boxFB)).BeginInit();
             this.ControlTab.SuspendLayout();
             this.FBTabPage.SuspendLayout();
-            this.TWTabPage.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.quentity_boxTW)).BeginInit();
             this.FBpanel.SuspendLayout();
+            this.TWTabPage.SuspendLayout();
             this.TWpanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.quentity_boxTW)).BeginInit();
             this.SuspendLayout();
             // 
             // start_btnFB
@@ -177,10 +178,26 @@
             this.FBTabPage.Text = "Facebook";
             this.FBTabPage.UseVisualStyleBackColor = true;
             // 
+            // FBpanel
+            // 
+            this.FBpanel.Controls.Add(this.richTextBoxFB);
+            this.FBpanel.Controls.Add(this.label1);
+            this.FBpanel.Controls.Add(this.csv_rbFB);
+            this.FBpanel.Controls.Add(this.quentity_boxFB);
+            this.FBpanel.Controls.Add(this.start_btnFB);
+            this.FBpanel.Controls.Add(this.stop_btnFB);
+            this.FBpanel.Controls.Add(this.label2);
+            this.FBpanel.Controls.Add(this.xls_rbFB);
+            this.FBpanel.Controls.Add(this.txt_rbFB);
+            this.FBpanel.Location = new System.Drawing.Point(8, 6);
+            this.FBpanel.Name = "FBpanel";
+            this.FBpanel.Size = new System.Drawing.Size(427, 185);
+            this.FBpanel.TabIndex = 10;
+            // 
             // FBcounter_label
             // 
             this.FBcounter_label.AutoSize = true;
-            this.FBcounter_label.Location = new System.Drawing.Point(128, 150);
+            this.FBcounter_label.Location = new System.Drawing.Point(128, 194);
             this.FBcounter_label.Name = "FBcounter_label";
             this.FBcounter_label.Size = new System.Drawing.Size(0, 13);
             this.FBcounter_label.TabIndex = 9;
@@ -188,7 +205,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(8, 150);
+            this.label5.Location = new System.Drawing.Point(8, 194);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(114, 13);
             this.label5.TabIndex = 8;
@@ -207,72 +224,20 @@
             this.TWTabPage.Text = "Twitter";
             this.TWTabPage.UseVisualStyleBackColor = true;
             // 
-            // TWcounter_label
+            // TWpanel
             // 
-            this.TWcounter_label.AutoSize = true;
-            this.TWcounter_label.Location = new System.Drawing.Point(128, 150);
-            this.TWcounter_label.Name = "TWcounter_label";
-            this.TWcounter_label.Size = new System.Drawing.Size(0, 13);
-            this.TWcounter_label.TabIndex = 17;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(8, 150);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(114, 13);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "Созданно аккаунтов:";
-            // 
-            // start_btnTW
-            // 
-            this.start_btnTW.Location = new System.Drawing.Point(6, 36);
-            this.start_btnTW.Name = "start_btnTW";
-            this.start_btnTW.Size = new System.Drawing.Size(75, 23);
-            this.start_btnTW.TabIndex = 8;
-            this.start_btnTW.Text = "Start";
-            this.start_btnTW.UseVisualStyleBackColor = true;
-            this.start_btnTW.Click += new System.EventHandler(this.start_btnTW_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 75);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(168, 13);
-            this.label3.TabIndex = 15;
-            this.label3.Text = "Сохранить аккаунты в формате";
-            // 
-            // txt_rbTW
-            // 
-            this.txt_rbTW.AutoSize = true;
-            this.txt_rbTW.Checked = true;
-            this.txt_rbTW.Location = new System.Drawing.Point(7, 102);
-            this.txt_rbTW.Name = "txt_rbTW";
-            this.txt_rbTW.Size = new System.Drawing.Size(46, 17);
-            this.txt_rbTW.TabIndex = 13;
-            this.txt_rbTW.TabStop = true;
-            this.txt_rbTW.Text = "TXT";
-            this.txt_rbTW.UseVisualStyleBackColor = true;
-            // 
-            // xls_rbTW
-            // 
-            this.xls_rbTW.AutoSize = true;
-            this.xls_rbTW.Location = new System.Drawing.Point(59, 102);
-            this.xls_rbTW.Name = "xls_rbTW";
-            this.xls_rbTW.Size = new System.Drawing.Size(45, 17);
-            this.xls_rbTW.TabIndex = 12;
-            this.xls_rbTW.Text = "XLS";
-            this.xls_rbTW.UseVisualStyleBackColor = true;
-            // 
-            // stop_btnTW
-            // 
-            this.stop_btnTW.Location = new System.Drawing.Point(87, 36);
-            this.stop_btnTW.Name = "stop_btnTW";
-            this.stop_btnTW.Size = new System.Drawing.Size(75, 23);
-            this.stop_btnTW.TabIndex = 9;
-            this.stop_btnTW.Text = "Stop";
-            this.stop_btnTW.UseVisualStyleBackColor = true;
+            this.TWpanel.Controls.Add(this.label4);
+            this.TWpanel.Controls.Add(this.csv_rbTW);
+            this.TWpanel.Controls.Add(this.quentity_boxTW);
+            this.TWpanel.Controls.Add(this.start_btnTW);
+            this.TWpanel.Controls.Add(this.stop_btnTW);
+            this.TWpanel.Controls.Add(this.label3);
+            this.TWpanel.Controls.Add(this.xls_rbTW);
+            this.TWpanel.Controls.Add(this.txt_rbTW);
+            this.TWpanel.Location = new System.Drawing.Point(8, 6);
+            this.TWpanel.Name = "TWpanel";
+            this.TWpanel.Size = new System.Drawing.Size(210, 130);
+            this.TWpanel.TabIndex = 18;
             // 
             // label4
             // 
@@ -282,6 +247,16 @@
             this.label4.Size = new System.Drawing.Size(96, 13);
             this.label4.TabIndex = 11;
             this.label4.Text = "Кол-во аккаунтов";
+            // 
+            // csv_rbTW
+            // 
+            this.csv_rbTW.AutoSize = true;
+            this.csv_rbTW.Location = new System.Drawing.Point(116, 102);
+            this.csv_rbTW.Name = "csv_rbTW";
+            this.csv_rbTW.Size = new System.Drawing.Size(46, 17);
+            this.csv_rbTW.TabIndex = 14;
+            this.csv_rbTW.Text = "CSV";
+            this.csv_rbTW.UseVisualStyleBackColor = true;
             // 
             // quentity_boxTW
             // 
@@ -305,45 +280,80 @@
             0,
             0});
             // 
-            // csv_rbTW
+            // start_btnTW
             // 
-            this.csv_rbTW.AutoSize = true;
-            this.csv_rbTW.Location = new System.Drawing.Point(116, 102);
-            this.csv_rbTW.Name = "csv_rbTW";
-            this.csv_rbTW.Size = new System.Drawing.Size(46, 17);
-            this.csv_rbTW.TabIndex = 14;
-            this.csv_rbTW.Text = "CSV";
-            this.csv_rbTW.UseVisualStyleBackColor = true;
+            this.start_btnTW.Location = new System.Drawing.Point(6, 36);
+            this.start_btnTW.Name = "start_btnTW";
+            this.start_btnTW.Size = new System.Drawing.Size(75, 23);
+            this.start_btnTW.TabIndex = 8;
+            this.start_btnTW.Text = "Start";
+            this.start_btnTW.UseVisualStyleBackColor = true;
+            this.start_btnTW.Click += new System.EventHandler(this.start_btnTW_Click);
             // 
-            // FBpanel
+            // stop_btnTW
             // 
-            this.FBpanel.Controls.Add(this.label1);
-            this.FBpanel.Controls.Add(this.csv_rbFB);
-            this.FBpanel.Controls.Add(this.quentity_boxFB);
-            this.FBpanel.Controls.Add(this.start_btnFB);
-            this.FBpanel.Controls.Add(this.stop_btnFB);
-            this.FBpanel.Controls.Add(this.label2);
-            this.FBpanel.Controls.Add(this.xls_rbFB);
-            this.FBpanel.Controls.Add(this.txt_rbFB);
-            this.FBpanel.Location = new System.Drawing.Point(8, 6);
-            this.FBpanel.Name = "FBpanel";
-            this.FBpanel.Size = new System.Drawing.Size(210, 130);
-            this.FBpanel.TabIndex = 10;
+            this.stop_btnTW.Location = new System.Drawing.Point(87, 36);
+            this.stop_btnTW.Name = "stop_btnTW";
+            this.stop_btnTW.Size = new System.Drawing.Size(75, 23);
+            this.stop_btnTW.TabIndex = 9;
+            this.stop_btnTW.Text = "Stop";
+            this.stop_btnTW.UseVisualStyleBackColor = true;
             // 
-            // TWpanel
+            // label3
             // 
-            this.TWpanel.Controls.Add(this.label4);
-            this.TWpanel.Controls.Add(this.csv_rbTW);
-            this.TWpanel.Controls.Add(this.quentity_boxTW);
-            this.TWpanel.Controls.Add(this.start_btnTW);
-            this.TWpanel.Controls.Add(this.stop_btnTW);
-            this.TWpanel.Controls.Add(this.label3);
-            this.TWpanel.Controls.Add(this.xls_rbTW);
-            this.TWpanel.Controls.Add(this.txt_rbTW);
-            this.TWpanel.Location = new System.Drawing.Point(8, 6);
-            this.TWpanel.Name = "TWpanel";
-            this.TWpanel.Size = new System.Drawing.Size(210, 130);
-            this.TWpanel.TabIndex = 18;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(3, 75);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(168, 13);
+            this.label3.TabIndex = 15;
+            this.label3.Text = "Сохранить аккаунты в формате";
+            // 
+            // xls_rbTW
+            // 
+            this.xls_rbTW.AutoSize = true;
+            this.xls_rbTW.Location = new System.Drawing.Point(59, 102);
+            this.xls_rbTW.Name = "xls_rbTW";
+            this.xls_rbTW.Size = new System.Drawing.Size(45, 17);
+            this.xls_rbTW.TabIndex = 12;
+            this.xls_rbTW.Text = "XLS";
+            this.xls_rbTW.UseVisualStyleBackColor = true;
+            // 
+            // txt_rbTW
+            // 
+            this.txt_rbTW.AutoSize = true;
+            this.txt_rbTW.Checked = true;
+            this.txt_rbTW.Location = new System.Drawing.Point(7, 102);
+            this.txt_rbTW.Name = "txt_rbTW";
+            this.txt_rbTW.Size = new System.Drawing.Size(46, 17);
+            this.txt_rbTW.TabIndex = 13;
+            this.txt_rbTW.TabStop = true;
+            this.txt_rbTW.Text = "TXT";
+            this.txt_rbTW.UseVisualStyleBackColor = true;
+            // 
+            // TWcounter_label
+            // 
+            this.TWcounter_label.AutoSize = true;
+            this.TWcounter_label.Location = new System.Drawing.Point(128, 150);
+            this.TWcounter_label.Name = "TWcounter_label";
+            this.TWcounter_label.Size = new System.Drawing.Size(0, 13);
+            this.TWcounter_label.TabIndex = 17;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(8, 150);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(114, 13);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "Созданно аккаунтов:";
+            // 
+            // richTextBoxFB
+            // 
+            this.richTextBoxFB.Location = new System.Drawing.Point(177, 86);
+            this.richTextBoxFB.Name = "richTextBoxFB";
+            this.richTextBoxFB.Size = new System.Drawing.Size(247, 96);
+            this.richTextBoxFB.TabIndex = 8;
+            this.richTextBoxFB.Text = "";
             // 
             // RegistrationForm
             // 
@@ -357,13 +367,13 @@
             this.ControlTab.ResumeLayout(false);
             this.FBTabPage.ResumeLayout(false);
             this.FBTabPage.PerformLayout();
-            this.TWTabPage.ResumeLayout(false);
-            this.TWTabPage.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.quentity_boxTW)).EndInit();
             this.FBpanel.ResumeLayout(false);
             this.FBpanel.PerformLayout();
+            this.TWTabPage.ResumeLayout(false);
+            this.TWTabPage.PerformLayout();
             this.TWpanel.ResumeLayout(false);
             this.TWpanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.quentity_boxTW)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -395,6 +405,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel FBpanel;
         private System.Windows.Forms.Panel TWpanel;
+        private System.Windows.Forms.RichTextBox richTextBoxFB;
     }
 }
 

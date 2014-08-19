@@ -65,11 +65,9 @@
     <Compile Include="AvtoRegistrationForm1.Designer.cs">
       <DependentUpon>AvtoRegistrationForm1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Driver.cs" />
-    <Compile Include="DriverExt.cs" />
-    <Compile Include="DriverWait.cs" />
     <Compile Include="GenerateEmail.cs" />
     <Compile Include="GenerateNameLastNamePass.cs" />
+    <Compile Include="Net.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegistrationFB.cs" />
